@@ -24,6 +24,13 @@ The example is implemented in node.js with the restify package.
 4. client: repeat Step 3 until job is finished and server provides `201 - Created`
 5. client: GET &rarr; `/result/:job_id` to get the results of the long-running job.
 
+### Run ###
+1. `$ git clone git@github.com:mcumcu/two-oh-two.git && cd two-oh-two`  
+2. `$ npm install`  
+3. `$ node index.js` ( start server )  
+4. `^C` ( quit server )  
+5. `$ npm test` ( run mocha/chai test )
+
 ### Test ###
 A basic test is included. It tries to determine if:
 1.  the API allows for a client to start a long-running job,
