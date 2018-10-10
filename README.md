@@ -27,15 +27,16 @@ The example is implemented in node.js with the restify package.
 ### Run ###
 1. `$ git clone git@github.com:mcumcu/two-oh-two.git && cd two-oh-two`  
 2. `$ npm install`  
-3. `$ node index.js` ( start server )  
-4. `^C` ( quit server )  
-5. `$ npm test` ( run mocha/chai test )
+3. `$ npm test`
+4. `$ node index.js`
 
-### Test ###
+### Testing & Coverage ###
 A basic test is included. It tries to determine if:
 1.  the API allows for a client to start a long-running job,
 2.  the API provides a way for the client to determine if the results of the long-running job are available, and,
 3.  the server should provide those results to the client when thay are available
+
+Test coverage is incomplete, e.g., no input validation is performed,  edge cases are not considered, etc. Do not use this code except for study.
 
 ###### Contact ######
 
