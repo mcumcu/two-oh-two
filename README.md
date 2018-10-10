@@ -3,7 +3,7 @@
 
 A simple implementation of a long-running asynchronous API call using HTTP status code *202 - Accepted*.
 
-![alt text](https://s27691.pcdn.co/wp-content/uploads/2011/07/long-run.jpg "Long running")
+![alt text](http://bit.ly/2IOSgNa "Long running")
 
 **Has your REST API ever had to depend on a long-running process (perhaps a third-party microservice)? How can the API provide a standards-based way to handle this scenario?**
 
