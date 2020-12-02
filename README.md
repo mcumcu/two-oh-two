@@ -40,6 +40,4 @@ Test coverage is incomplete, e.g., no input validation is performed,  edge cases
 
 ###### Contact ######
 
-Christopher Unger |
-https://christopherunger.com |
-jobs@christopherunger.com
+Christopher Unger | mcu@mac.com
